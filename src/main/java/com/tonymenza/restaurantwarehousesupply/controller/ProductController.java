@@ -28,9 +28,9 @@ public class ProductController {
     }
 
     @GetMapping("/products")
-    public List<Product> fetchProductList(){
-       LOGGER.info("GET: fetchProductList");
-       return productService.fetchProductList();
+    public List<Product> fetchProductList() {
+        LOGGER.info("GET: fetchProductList");
+        return productService.fetchProductList();
     }
 
 }
